@@ -13,14 +13,39 @@
     </header>
     <main>
 
-        <h3>Aktuella ledamoter i riksdagen sorterade på parti:</h3>
-        <button id="get-persons" class="button">Push me!</button>
-        <div class="getButtons">
-            <button id="getS" class="button">Socialdemokraterna</button>
+        <div class="top">
+            <h3>Aktuella ledamoter i riksdagen sorterade på parti:</h3>
+            <!-- <button id="get-persons" class="button">Push me!</button> -->
+            <div class="getButtons">
+                <button id="getS" class="button">Socialdemokraterna</button>
+                <button id="getM">Moderaterna</button>
+                <button id="getMP">Miljöpartiet</button>
+                <button id="getV">Vänstern</button>
+                <button id="getC">Centerpartiet</button>
+                <button id="getL">Liberalerna</button>
+                <button id="getKD">Kristdemokraterna</button>
+                <!-- <button id="test">Test</button> -->
+            </div>
+            <h3>Aktuella ledamoter i riksdagen med specifikt födelseår:</h3>
+            <div class="year-input-container">
+                <h4>Skriv in födelseår 4 siffror:</h4>
+                <input type="text" placeholder="YYYY" id="input-year" class="input-field" />
+                <button id="input-year-button">Hämta data</button>
+            </div>
+            
 
         </div>
-        <div class="persons">
+        
+        <div id="allPersons" class="all-persons-container">
+            <!-- 
+               <div class="person">
+                 personElement
+                 <img src="#" alt="person image"  />
+                 <p>Person.tilltalsnamn Efternamn</p>
+                 <img src="#" alt="LogoImage">
 
+             </div> 
+             -->
 
         </div>
     </main>
